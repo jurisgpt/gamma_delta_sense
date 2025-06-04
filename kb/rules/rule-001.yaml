@@ -1,0 +1,7 @@
+rule_id: rule-001
+if: BTN3A1 is bound by antibody clone 20.1
+then: Vγ9Vδ2 T cells become activated
+metadata:
+  source: PubMed:12345678
+  year: 2021
+  confidence: 0.95

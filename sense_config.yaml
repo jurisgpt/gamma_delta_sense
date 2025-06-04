@@ -1,0 +1,42 @@
+# Gamma Delta Sense System Configuration
+# Root level configuration file
+
+system:
+  name: "Gamma Delta Sense"
+  version: "1.0.0"
+  description: "Change detection and difference analysis for knowledge base"
+
+paths:
+  knowledge_base: "kb"
+  facts_directory: "kb/facts"
+  rules_directory: "kb/rules"
+  raw_docs: "raw_docs"
+  semi_structured: "semi_structured"
+
+sensing:
+  gamma_detection:
+    enabled: true
+    threshold: 0.1
+    scan_interval: 60
+    
+  delta_analysis:
+    enabled: true
+    similarity_threshold: 0.5
+    
+  monitoring:
+    real_time: false
+    file_extensions: [".txt", ".yaml"]
+
+validation:
+  require_paired_files: true
+  content_validation: true
+  cross_reference_check: true
+
+performance:
+  max_workers: 4
+  timeout_seconds: 30
+  
+logging:
+  level: "INFO"
+  file: "gamma_delta.log"
+

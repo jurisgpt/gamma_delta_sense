@@ -1,0 +1,16 @@
+- rule_id: rule_001
+  description: >
+    Describe what the rule captures, e.g., BTN3A1 activation leads to gamma delta T cell activation.
+  if:
+    - concept: BTN3A1
+      property: activated
+      context: infection
+  then:
+    - concept: gamma_delta_t_cell
+      subtype: Vgamma9Vdelta2
+      property: activated
+      context: infection
+  source: PMID:12345678
+  confidence: 1.0
+  notes: >
+    Optional notes go here.

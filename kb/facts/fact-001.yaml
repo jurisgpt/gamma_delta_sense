@@ -1,0 +1,6 @@
+- concept: BTN3A1
+  property: bound_by
+  context: antibody clone 20.1
+- concept: Vγ9Vδ2 T cells
+  property: activation
+  context: presence of BTN3A1-bound antibody

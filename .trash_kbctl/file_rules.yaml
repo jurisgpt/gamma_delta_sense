@@ -1,0 +1,7 @@
+# file_rules.yaml — Policy engine for kbctl
+expected_dirs:
+  - rules
+  - facts
+  - raw
+  - json
+

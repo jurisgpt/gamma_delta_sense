@@ -1,0 +1,5 @@
+- concept: BTN3A1
+  property: activated
+  context: infection
+  source: PMID:12345678
+  confidence: 1.0
