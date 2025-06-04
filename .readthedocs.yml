@@ -16,13 +16,14 @@ python:
     - requirements: docs/requirements.txt
     - method: pip
       path: .
-
+      extra_requirements:
+        - docs
 
 # Optionally build your docs in additional formats such as PDF
 formats:
   - htmlzip
 
-# Build documentation in the docs/ directory with Sphinx
+# Build configuration
 build:
   os: ubuntu-22.04
   tools:
@@ -32,6 +33,11 @@ build:
       - python -m pip install --upgrade pip setuptools wheel
       - python -m pip install -e .
       - python -m pip install -r docs/requirements.txt
+      - python -m pip install sphinx-rtd-theme>=1.0.0
+
+# Explicitly set the Python requirements
+python.install.requirements:
+  - requirements/docs.txt
   - pdf
   - epub
 
