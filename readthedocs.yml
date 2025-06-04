@@ -1,11 +1,21 @@
-# readthedocs.yml
+# Read the Docs configuration file
 version: 2
 
+# Build environment
 build:
-  os: ubuntu-24.04
+  os: ubuntu-22.04  # More stable LTS version
   tools:
-    python: "3.13"
+    python: "3.10"   # Stable Python version
 
+# Python environment
+python:
+  install:
+    - requirements: docs/requirements.txt
+
+# Sphinx configuration
 sphinx:
   configuration: docs/conf.py
+  fail_on_warning: false
 
+# Build PDF and ePub output
+formats: all
