@@ -1,21 +1,18 @@
+# Minimal Read the Docs configuration
 version: 2
 
+# Build environment
 build:
-  os: ubuntu-22.04  # Using 22.04 for better compatibility
+  os: ubuntu-22.04
   tools:
-    python: "3.10"  # Using Python 3.10 which is more stable with RTD
+    python: "3.10"
 
+# Python environment
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: pip
-      path: .
-      extra_requirements:
-        - docs
 
+# Sphinx configuration
 sphinx:
   configuration: docs/conf.py
   fail_on_warning: false
-
-# Explicitly install the theme
-formats: all
