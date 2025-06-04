@@ -4,7 +4,7 @@
 <!-- Replace with actual image -->
 ![Immunology Knowledge Base](https://via.placeholder.com/800x200/0066CC/FFFFFF?text=Immunology+Knowledge+Base)
 
-A domain-specific system for developing, monitoring, and analyzing changes in immunology knowledge bases. Focuses on tracking relationships between immunological concepts like BTN3A1 activation and gamma delta T cell responses.
+A domain-specific system for developing, monitoring, and analyzing changes in immunology knowledge bases. Focuses on tracking  gamma delta T cell responses.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
