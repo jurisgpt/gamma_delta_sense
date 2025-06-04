@@ -24,7 +24,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',  # For Google-style docstrings
-    'sphinx_rtd_theme',
 ]
 
 templates_path = ['_templates']
