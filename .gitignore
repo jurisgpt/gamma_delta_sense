@@ -1,0 +1,4 @@
+
+# Backup files
+*.bak
+builtin_theme_conf.py
