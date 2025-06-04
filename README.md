@@ -8,7 +8,7 @@ A domain-specific system for developing, monitoring, and analyzing changes in im
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Documentation Status](https://readthedocs.org/projects/immuno-kb/badge/?version=latest)](https://immuno-kb.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://gamma-delta-sense.readthedocs.io/en/latest/)
 
 ## Features
 
